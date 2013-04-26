@@ -1,0 +1,47 @@
+body { padding-top: 60px; padding-bottom: 40px; }
+
+#new-image-list { margin: 10px 0; list-style-type: none; border: 2px solid #f5f5f5; width: 100%; height: 200px; }
+  #new-image-list li { float: left; margin: 5px; border: 1px solid #ccc; padding: 3px; }
+
+#sortable { list-style-type: none; margin: 0; padding: 0; }
+  #sortable li { margin: 2px; padding: 0; height: 106px; background: #f5f5f5; border: 1px solid #ccc;
+  -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; position: relative; }
+    #sortable li div.drag-handle { background-image: url(../images/drag-handle.png); width: 23px; height: 100px; top: 0; left: 0;
+                margin: 3px 10px 3px 3px; position: absolute; cursor: move; }
+    #sortable li div.image-container { position: absolute; top: 0; left: 33px; }
+    #sortable li div.info { position: absolute; top: 3px; }
+    #sortable li div.btn-group { position: absolute; top: 0; right: 0; }
+    
+#feeds { width: 400px; height: 400px; background: #ffc; border: 1px solid #999; overflow: auto; margin: 0; list-style-type: none; }
+#feeds.takeable-active { background: #09f; }
+#takeable { width: 400px; height: 400px; background: #fff; border: 1px solid #999; overflow: auto; margin: 0; list-style-type: none; }
+  #feeds li, #takeable li { list-style-type: none; background: whitesmoke; border: 1px solid #ccc; padding: 5px; margin: 1px; }
+
+ .mini-image-set { list-style-type: none; margin: 0; padding: 0; }
+  .mini-image-set li { list-style-type: none; margin: 0 2px; padding: 0; float: left; width: 50px; line-height: 0; border: 1px solid #ccc; }
+  .mini-image-set li:nth-child(2) { opacity: 0.9; }
+  .mini-image-set li:nth-child(3) { opacity: 0.8; }
+  .mini-image-set li:nth-child(4) { opacity: 0.7; }
+  .mini-image-set li:nth-child(5) { opacity: 0.6; }
+  .mini-image-set li:nth-child(6) { opacity: 0.5; }
+  .mini-image-set li:nth-child(7) { opacity: 0.4; }
+  .mini-image-set li:nth-child(8) { opacity: 0.3; }
+  .mini-image-set li:nth-child(9) { opacity: 0.2; }
+  .mini-image-set li:nth-child(10) { opacity: 0.1; }
+.sidebar-nav { padding: 9px 0; }
+.login { width: 250px; margin: 0 auto; }
+.w100 { width: 100%; }
+.w90 { width: 90%; }
+.w80 { width: 80%; }
+.w75 { width: 75%; }
+.w70 { width: 70%; }
+.w60 { width: 60%; }
+.w50 { width: 50%; }
+.w40 { width: 40%; }
+.w30 { width: 30%; }
+.w25 { width: 25%; }
+.w20 { width: 20%; }
+.w10 { width: 10%; }
+.right { float: right; }
+.left { float: left; }
+.clear { clear: both; }
